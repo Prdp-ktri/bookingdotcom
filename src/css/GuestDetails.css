@@ -1,0 +1,19 @@
+.toggle {
+  height: 1.5rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.toggle::after {
+  content: "";
+  height: 1.3rem;
+  width: 1.3rem;
+  position: absolute;
+  background-color: #006ce3;
+  border-radius: 50%;
+  left: 0.1rem;
+}

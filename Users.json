@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "name": "Pradeep Khatri",
+      "email": "pradeepkhatri44@live.com",
+      "password": "PK08@booking"
+    },
+    {
+      "id": "6471",
+      "name": "Horang",
+      "email": "horang@tekken.com",
+      "password": "horang@tekken"
+    }
+  ]
+}
