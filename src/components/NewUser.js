@@ -19,7 +19,7 @@ function NewUser() {
     };
     console.log(obj);
 
-    fetch("https://bookingdotcom-1.onrender.com", {
+    fetch("https://booking-backend-sc0y.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/JSON" },
       body: JSON.stringify(obj),
