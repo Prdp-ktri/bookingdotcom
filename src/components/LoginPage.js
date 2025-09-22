@@ -9,7 +9,7 @@ function LoginPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://bookingdotcom-1.onrender.com")
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch((err) => console.error("Error fetching login details", err));
